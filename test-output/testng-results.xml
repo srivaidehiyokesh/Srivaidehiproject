@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="81121" started-at="2018-07-29T06:55:51Z" finished-at="2018-07-29T06:57:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="81121" started-at="2018-07-29T06:55:51Z" finished-at="2018-07-29T06:57:12Z">
+      <class name="week6.day2.TC002_CreateLeadNeg">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="startSuite" is-config="true" duration-ms="516" started-at="2018-07-29T06:55:50Z" finished-at="2018-07-29T06:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="setValues()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="setValues" is-config="true" duration-ms="0" started-at="2018-07-29T06:55:51Z" finished-at="2018-07-29T06:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setValues -->
+        <test-method status="PASS" signature="startTest()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="startTest" is-config="true" duration-ms="0" started-at="2018-07-29T06:55:51Z" finished-at="2018-07-29T06:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="login" is-config="true" duration-ms="17110" started-at="2018-07-29T06:55:52Z" finished-at="2018-07-29T06:56:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="createLead" duration-ms="7818" started-at="2018-07-29T06:56:09Z" data-provider="fetchData" finished-at="2018-07-29T06:56:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.companyName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="close" is-config="true" duration-ms="2401" started-at="2018-07-29T06:56:17Z" finished-at="2018-07-29T06:56:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="login" is-config="true" duration-ms="17134" started-at="2018-07-29T06:56:19Z" finished-at="2018-07-29T06:56:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="createLead" duration-ms="7337" started-at="2018-07-29T06:56:36Z" data-provider="fetchData" finished-at="2018-07-29T06:56:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wipro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.firstName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="close" is-config="true" duration-ms="2107" started-at="2018-07-29T06:56:44Z" finished-at="2018-07-29T06:56:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="login" is-config="true" duration-ms="15491" started-at="2018-07-29T06:56:46Z" finished-at="2018-07-29T06:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demosalesmanager]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="createLead" duration-ms="8175" started-at="2018-07-29T06:57:01Z" data-provider="fetchData" finished-at="2018-07-29T06:57:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wipro]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sri]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[The following required parameter is missing: [crmsfa.createLead.lastName]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="close()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="close" is-config="true" duration-ms="2374" started-at="2018-07-29T06:57:09Z" finished-at="2018-07-29T06:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="endResults()[pri:0, instance:week6.day2.TC002_CreateLeadNeg@a3426]" name="endResults" is-config="true" duration-ms="390" started-at="2018-07-29T06:57:12Z" finished-at="2018-07-29T06:57:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResults -->
+      </class> <!-- week6.day2.TC002_CreateLeadNeg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
