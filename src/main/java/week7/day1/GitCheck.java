@@ -7,6 +7,6 @@ public class GitCheck {
 		int sum,b1;//initialized by vaidehi
 		System.out.println("Git Check");
 
-	}
+	}	
 
 }
