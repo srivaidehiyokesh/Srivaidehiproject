@@ -6,6 +6,7 @@ public class GitCheck {
 		// TODO Auto-generated method stub
 		int sum,b1;//initialized by vaidehi
 		System.out.println("Git Check");
+		System.out.println("Hello");
 
 	}	
 
