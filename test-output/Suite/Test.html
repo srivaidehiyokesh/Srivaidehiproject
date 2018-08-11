@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jul 29 12:25:51 IST 2018</td>
+<td>Started on:</td><td>Sat Aug 11 17:36:07 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>81 seconds (81121 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (75 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,28 +67,39 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='week6.day2.TC002_CreateLeadNeg.createLead()'><b>createLead</b><br>Test class: week6.day2.TC002_CreateLeadNeg<br>Parameters: , sri, n, The following required parameter is missing: [crmsfa.createLead.companyName]</td>
-<td></td>
-<td>7</td>
-<td>week6.day2.TC002_CreateLeadNeg@a3426</td></tr>
-<tr>
-<td title='week6.day2.TC002_CreateLeadNeg.createLead()'><b>createLead</b><br>Test class: week6.day2.TC002_CreateLeadNeg<br>Parameters: wipro, , n, The following required parameter is missing: [crmsfa.createLead.firstName]</td>
-<td></td>
-<td>7</td>
-<td>week6.day2.TC002_CreateLeadNeg@a3426</td></tr>
-<tr>
-<td title='week6.day2.TC002_CreateLeadNeg.createLead()'><b>createLead</b><br>Test class: week6.day2.TC002_CreateLeadNeg<br>Parameters: wipro, sri, , The following required parameter is missing: [crmsfa.createLead.lastName]</td>
-<td></td>
-<td>8</td>
-<td>week6.day2.TC002_CreateLeadNeg@a3426</td></tr>
+<td title='salesforce.VerifyCampaign.verifyCampaign()'><b>verifyCampaign</b><br>Test class: salesforce.VerifyCampaign</td>
+<td><div><pre>org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] salesforce.VerifyCampaign.getData(java.lang.String) throws java.io.IOException parameters unresolved:  at 0 type class java.lang.String
+
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+... Removed 8 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace7079683", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace7079683'><pre>org.testng.TestNGException: 
+Some DataProvider public java.lang.Object[][] salesforce.VerifyCampaign.getData(java.lang.String) throws java.io.IOException parameters unresolved:  at 0 type class java.lang.String
+
+	at org.testng.internal.MethodInvocationHelper.getParameters(MethodInvocationHelper.java:197)
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:130)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:744)
+</pre></div></td>
+<td>0</td>
+<td>salesforce.VerifyCampaign@17d0008</td></tr>
 </table><p>
 </body>
 </html>

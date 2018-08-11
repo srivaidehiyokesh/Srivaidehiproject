@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week3.day2.MergeLead">
+      <class name="salesforce.VerifyCampaign">
         <methods>
-          <include name="login"/>
-          <include name="close"/>
-          <include name="MergeLead"/>
+          <include name="verifyCampaign"/>
+          <include name="setValues"/>
         </methods>
-      </class> <!-- week3.day2.MergeLead -->
+      </class> <!-- salesforce.VerifyCampaign -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
